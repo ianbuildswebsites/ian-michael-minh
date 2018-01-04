@@ -1,0 +1,29 @@
+.mobile h4 {
+	font-family:futura, helvetica, sans-serif;
+	text-align: center;
+}
+
+.mobile img {
+	margin-top:10px;
+	width: 90%;
+	margin-left:5%;
+}
+
+.mobile h3, h5 {
+	margin-left: 5%;
+}
+
+.mobile a:link{
+	text-decoration: underline;
+	color: black;
+}
+
+.mobile a:visited {
+	color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}

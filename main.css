@@ -1,0 +1,178 @@
+.headshot {
+	width:75%;
+	display: inline-block;
+}
+
+.mini-headshot{
+	width:100%;
+	margin-top: 40px;
+}
+
+.banner h1,h3,h5,h6 {
+	font-family: futura, helvetica, sans-serif;
+	margin: 0px;
+}
+
+.banner a:link{
+	color:black;
+}
+
+.banner a:visited{
+	color:black;
+}
+
+.banner a:hover{
+	text-decoration: none;
+}
+
+nav {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.menu {
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.menu a:link{
+	color: black;
+	text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu a:visited{
+	color:black;
+}
+
+.recent h3 {
+	margin-top:50px;
+}
+
+.recent ul {
+	padding: 0px;
+	margin-top: 8px;
+}
+
+.recent li {
+	list-style: none;
+	font-family: helvetica, sans-serif;
+	margin-top: 4px;
+}
+
+.col-25 {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+    display: inline-block;
+}
+
+.download {
+	font-family: futura, helvetica, sans-serif;
+	margin-top: 35px;
+}
+
+.download a:link{
+	color:black;
+	text-decoration: none;
+}
+
+.download a:hover{
+	text-decoration: underline;
+}
+
+.resume {
+	width: 85%;
+}
+
+.col-75 {
+	width:70%;
+	padding:2.5%;
+	display:inline-block;
+	
+}
+
+.col-75 p{
+	font-family: Courier, serif;
+	margin-top:50px;
+}
+
+.contact h2, h4 {
+    font-family: helvetica, sans-serif;
+    margin: 0px;
+}
+
+.contact h4 {
+    margin-top: 8px;
+}
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: auto;
+}
+
+.title h4 {
+	font-family: Futura, sans-serif;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.clear:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+
+.contact a:link{
+	color:black;
+}
+
+.contact a:visited{
+	color:black;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+.contact h2{
+	font-family: Futura, Helvetica, sans-serif;
+}
+
+.contact a:link{
+	color:black;
+}
+
+.contact a:visited{
+	color:black;
+}
+
+.title .credit {
+	font-family: Helvetica, sans-serif;
+	font-size: 9px;
+	display: inline-block;
+	padding-left: 7px;
+}
+
+.title .credit a {
+	font-size: 9px;
+}
+
+.title .credit a:link {
+	color: black;
+}
+
+.title .credit a:visited {
+	color: black;
+}
+
+.title .credit a:hover {
+	text-decoration: none;
+}
