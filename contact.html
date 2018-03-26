@@ -7,8 +7,6 @@
 	<title>Ian Michael Minh</title>
 	<link rel="stylesheet" href="main.css">
 	<link href="lightbox.css" rel="stylesheet">
-	<script src="js/navigation.js"></script>
-	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<div class="col col-25">
@@ -32,33 +30,57 @@
 			<h4 class="download"><a href="images/Ian-Michael-Minh-HR.pdf" download>Download Headshot+Resume</a></h4>
 		</nav>
 
+		<img src="images/Ian-Michael-Minh-1-thumb.jpg" alt="a mini headshot" class="mini-headshot">
+
 		<div class="recent">
-				<h3>Up Next:</h3>
-				<ul>
-					<li><strong>The Merry Wives of Windsor—</strong><br><a href="https://arctheatrechicago.org/merry-wives-of-windsor/">Arc Theatre</a> <span>(July 2018)</span></li>
-					<li><strong>Vietgone—</strong><a href="https://www.writerstheatre.org/ian-michael-minh-biography" target="_blank">Writers Theatre</a><span> (Aug. 2018)</span></li>
-				</ul>
+			<h3>Up Next:</h3>
+			<ul>
+				<li><strong>The Merry Wives of Windsor—</strong><br><a href="https://arctheatrechicago.org/merry-wives-of-windsor/">Arc Theatre</a> <span>(July 2018)</span></li>
+				<li><strong>Vietgone—</strong><a href="https://www.writerstheatre.org/ian-michael-minh-biography" target="_blank">Writers Theatre</a><span> (Aug. 2018)</span></li>
+			</ul>
 
 
-				<h3>Recent Work:</h3>
-				<ul>
-					
-					<li><strong>Twelfth Night</strong>—Midsommer Flight</li>
-					<li><strong>Romeo & Juliet</strong>—Teatro Vista</li>
-				</ul>
-			</div>
-			<div class="foot">
-				<h6>built by <a href="http://ianbuildswebsites.com" target="_blank">Ian Builds Websites.</a> &copy;2018</h6>
-			</div>
+
+			<h3>Recent Work:</h3>
+			<ul>
+
+				<li><strong>Twelfth Night</strong>—Midsommer Flight</li>
+				<li><strong>Romeo & Juliet</strong>—Teatro Vista</li>
+			</ul>
+		</div>
 
 	</div>
 
 	<div class="col col-75 contact">
-		<h2>Please contact Ian via Victoria Borda at <a href="http://www.bmgtalent.com">BMG Talent</a>.</h2>
-		<h4><a href="mailto:victoria@bmgglobal.com">victoria@bmgglobal.com</a></h4>
-		<h4>(312) 829-9100</h4>
+
+		<form action="https://formspree.io/ianmichaelminh@gmail.com" name="contact" method="POST" target="_blank">
+
+			<h3>Thanks for your interest—I'd love to hear from you!</h3>
+
+			<h3>Name</h3>
+			<input type="text" class="inbox" name="name">
+			
+			<h3>How can I reach you?</h3>
+			<input type="text" class="inbox" name="method">
+			
+			<h3>Message</h3>
+			<textarea name="message" class="inbox" id="messagearea"></textarea>
+
+			<input type="submit" value="Submit" class="button">
+		</form>
+
+		<div class="agentbox">
+			<h3>You may also contact me via Victoria Borda at <a href="http://www.bmgtalent.com">BMG Talent</a>.</h3>
+			<h4><a href="mailto:victoria@bmgglobal.com">victoria@bmgglobal.com</a></h4>
+			<h4>(312) 829-9100</h4>
+		</div>
 	</div>
+
+	<div class="foot" id="contact-foot">
+		<h6>built by <a href="http://ianbuildswebsites.com" target="_blank">Ian Builds Websites.</a> &copy;2018</h6>
+	</div>
+
 	<script src="lightbox-plus-jquery.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>
