@@ -202,6 +202,10 @@ form .inbox {
 	margin-top: 50px;
 }
 
+.active-link {
+	font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
 	.col {
 		width: 100%;

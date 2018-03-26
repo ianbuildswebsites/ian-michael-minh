@@ -18,7 +18,7 @@ $(".home-link").click(function() {
 	$(".hidden").slideUp();
 	$(".headshot").slideDown();
 	$(".nav-link").removeClass("active-link");
-	$(".home-link").addClass("active-link");
+	$(this).addClass("active-link");
 });
 
 //show press div on click
@@ -28,7 +28,7 @@ $(".press-link").click(function() {
 	$(".resume-div").slideUp();
 	$(".contact-div").slideUp();
 	$(".nav-link").removeClass("active-link");
-	$(".press-link").addClass("active-link");
+	$(this).addClass("active-link");
 });
 
 //show photo div on click
@@ -38,7 +38,7 @@ $(".photos-link").click(function() {
 	$(".resume-div").slideUp();
 	$(".contact-div").slideUp();
 	$(".nav-link").removeClass("active-link");
-	$(".photos-link").addClass("active-link");
+	$(this).addClass("active-link");
 });
 
 //show resume div on click
@@ -48,7 +48,7 @@ $(".resume-link").click(function() {
 	$(".resume-div").slideDown();
 	$(".contact-div").slideUp();
 	$(".nav-link").removeClass("active-link");
-	$(".resume-link").addClass("active-link");
+	$(this).addClass("active-link");
 });
 
 //show contact div on click
@@ -58,5 +58,5 @@ $(".contact-link").click(function() {
 	$(".resume-div").slideUp();
 	$(".contact-div").slideDown();
 	$(".nav-link").removeClass("active-link");
-	$(".contact-link").addClass("active-link");
+	$(this).addClass("active-link");
 });
